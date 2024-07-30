@@ -24,7 +24,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Laravel Sail Project
 Laravel Sail is a light-weight command-line interface for interacting with Laravel's default Docker development environment. Sail provides a great starting point for building a Laravel application using PHP, MySQL, and Redis without requiring prior Docker experience.
 
-###start Sail
+### start Sail
 ```bash
 ./vendor/bin/sail up
 ```
@@ -34,7 +34,7 @@ To start all of the Docker containers in the background, you may start Sail in "
 ```
 
 
-###rebuild sail images
+### rebuild sail images
 ```bash
 docker compose down -v
  
@@ -49,7 +49,7 @@ To stop all of the containers, you may simply press Control + C to stop the cont
 sail stop
 ```
 
-###Executing Commands
+### Executing Commands
 ```bash
 sail artisan queue:work
 
